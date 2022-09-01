@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header#main-header {
+    background-color: black;
+    display:flex;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content:space-between ;
+    color: white;
+}
+header.logo {
+  width: fit-content;
+}
+header.logo h1 {
+  font-size: 1.5rem;
+  font-family: cursive;
+  text-decoration: underline wavy;
+}
+header #navbar ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+header #navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+    background-color: rgb(32, 30, 30);
+}
+.page-5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../assets/light-grey-abstract-3.jpg");
+    background-position: center;
+    font-weight: bolder;
+}
+.sec-3 {
+    text-align: center;
+}
+.sec-2 {
+    color: rgb(125, 51, 51);
+    text-align: center;
+}

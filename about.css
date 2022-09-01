@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header#main-header {
+    background-color: black;
+    display:flex;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content:space-between ;
+    color: white;
+}
+header.logo {
+  width: fit-content;
+}
+header.logo h1 {
+  font-size: 1.5rem;
+  font-family: cursive;
+  text-decoration: underline wavy;
+}
+header #navbar ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+header #navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+    background-color: rgb(32, 30, 30);
+}
+.page-2 {
+    background-image: url("../assets/BG-3.webp");
+    background-position: center;
+    font-weight: bolder;
+    
+}
+.page-2 .about {
+    text-align: center;
+    line-height: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page-2 i {
+    font-weight: bolder;
+    color: rgb(143, 54, 54);
+} 
